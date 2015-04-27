@@ -3,13 +3,13 @@ require 'scss_lint/constants'
 require 'scss_lint/version'
 
 Gem::Specification.new do |s|
-  s.name             = 'scss-lint'
+  s.name             = 'scss-lint-bliss'
   s.version          = SCSSLint::VERSION
   s.license          = 'MIT'
   s.summary          = 'SCSS lint tool'
-  s.description      = 'Configurable tool for writing clean and consistent SCSS'
+  s.description      = 'scss-lint customized for css-bliss'
   s.authors          = ['Brigade Engineering', 'Shane da Silva']
-  s.email            = ['eng@brigade.com', 'shane.dasilva@brigade.com']
+  s.email            = ['birmangil@gmail.com']
   s.homepage         = SCSSLint::REPO_URL
 
   s.require_paths    = ['lib']
