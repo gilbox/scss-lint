@@ -201,7 +201,7 @@ linters:
     enabled: true
 
   Bliss::Module:
-    enabled: false
+    enabled: true
     severity: error
     module_file_pattern: !ruby/regexp '/[\/\\]_?([A-Z][a-zA-Z0-9]+)\.scss/'
     allow_id_selector_in_module: false
